@@ -1,0 +1,96 @@
+
+body{
+    font-family: 'Loved by the King', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+  
+nav{
+    height: 60px;
+   
+}
+
+.navbar{
+    font-family: Open sans ;
+    font-weight: 300;
+}
+
+#hero{
+    background-image: url(../img/bg_hero.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1{
+    color:#373A3C;
+    font-size: 72px;
+    font-family: Loved by the King;
+    font-weight:700 ;
+}
+    @media only screen and (max-width: 576px) {
+        h1{font-size: 40px;
+        text-align: center;}
+        }
+
+
+h3{
+    color:#373A3C;
+    font-size: 25px;
+    font-family: open sans  ;
+    font-weight: 300;
+}
+   
+p{
+    color:#373A3C;
+    font-size: 16px;
+    font-family: roboto condensed;
+    font-weight: 400;
+}
+
+h2{
+    color:#373A3C;
+    font-family: open sans ;
+    font-weight: 700;
+    font-size: 3.25rem;
+} 
+    @media only screen and (max-width: 576px) {
+        h2{font-size: 35px;
+        text-align: center;}
+        }
+    
+
+h6{
+    color:#373A3C;
+    font-family: open sans ;
+    font-weight: 400;
+    font-size: 1.56rem;
+}
+
+
+.sobre-mi{
+    line-height: 2.5;
+}
+    @media (max-width: 768px) {
+        .sobre-mi{display: none; }
+      }
+
+
+.trabajos{
+    height: 150%;
+    background-color: #e1d1c6;
+} 
+
+.bg-magenta{
+    background-color: #900c3f;
+}
+
+.contacto{
+    width: auto;
+    height: 180%;
+}
+
+  
