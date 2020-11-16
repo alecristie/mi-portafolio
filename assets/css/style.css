@@ -93,4 +93,12 @@ h6{
     height: 180%;
 }
 
-  
+.img-100{
+    max-width: 100%;
+}
+
+.cv{
+    color: #900c3f;
+    font-family: open sans ;
+    font-weight: 300;
+}
