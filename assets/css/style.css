@@ -58,17 +58,20 @@ h2{
     font-size: 3.25rem;
 } 
     @media only screen and (max-width: 576px) {
-        h2{font-size: 35px;
+        h2{font-size: 30px;
         text-align: center;}
         }
     
-
 h6{
     color:#373A3C;
     font-family: open sans ;
     font-weight: 400;
     font-size: 1.56rem;
 }
+    @media only screen and (max-width: 576px) {
+        h6{font-size: 18px;
+        text-align: center;}
+        }
 
 
 .sobre-mi{
@@ -93,6 +96,10 @@ h6{
     height: 180%;
 }
 
+.magenta{
+    color: #900c3f;
+}
+
 .img-100{
     max-width: 100%;
 }
@@ -102,3 +109,21 @@ h6{
     font-family: open sans ;
     font-weight: 300;
 }
+
+#wood{
+    
+}
+    @media only screen and (max-width: 576px) {
+        #wood{
+        font size: 14px;
+        text-align: center;}
+        }
+
+#reforma{
+
+}
+    @media only screen and (max-width: 576px) {
+        #reforma{
+        font size: 10px;
+        text-align: center;}
+        }

@@ -26,6 +26,13 @@ $(function () {
     }))
 
 
+      //cambiar letras a color rojo
+      $(document).ready(function () {
+        $("#contacto").dblclick(function () {
+            $(this).css("color", "magenta");
+        });
+    });
+
     //modal
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')

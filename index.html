@@ -78,7 +78,7 @@
       <h3 class="text-center font-weight-normal mt-5 p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
         mattis ante nulla. Donec in neque consectetur, ultrices justo eu,
         hendrerit lectus.</h3>
-        <hr class="text-center bg-dark" width="15%" />
+      <hr class="text-center bg-dark" width="15%" />
 
       <div class="row">
         <div class="col-lg-6  text-left">
@@ -119,13 +119,13 @@
       <div class="row">
 
         <div class="col-lg-6 font-weight-light text-left mt-5 p-3">
-         <h1> Diseñadora </h1>
-          <h3>en woodskin</h3>
+          <h1> Diseñadora </h1>
+          <h3 id= "wood" >en woodskin</h3>
         </div>
 
         <div class="col-lg-6 font-weight-light text-rigth  mt-5 p-3">
-          <h1>Formulación de proyecto</h1> 
-          <h3 class="text-center">en PRODEMU y re-forma</h3>
+          <h1>Formulación de proyecto</h1>
+          <h3 id="reforma" class="text-center">en PRODEMU y re-forma</h3>
         </div>
       </div>
 
@@ -335,7 +335,7 @@
           </button>
         </div>
         <div class="modal-body">
-        <img src="assets/img/dmark.png" alt="dmark" class="img-100">
+          <img src="assets/img/dmark.png" alt="dmark" class="img-100">
           <p class="text-justify ">Modal body text goes here.</p>
           <p class="text-justify ">Modal body text goes here.</p>
           <p class="text-justify ">Modal body text goes here.</p>
@@ -350,7 +350,7 @@
   <!--contacto-->
   <section id="contact" class="contacto">
     <div class="container text-center my-5 p-5">
-      <h2 class="text-center font-weight-bold mt-2">Contacto</h2>
+      <h2 id="contacto" class="text-center font-weight-bold mt-2">Contacto</h2>
       <hr class="text-center bg-dark" width="15%" />
       <h6 class="mt-5 p-3">¿Quieres conocer más de mi?</h6>
       <div class=" text-center mb-5 p-4">
@@ -359,9 +359,9 @@
           target="_blank">¡Pruébame! </a>
         <script> (function () {
             var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share",
-            b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) }
+              b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) }
           })() </script>
-        <a id="#cv" class="btn btn-light space-evenly  ml-2" href="cv.html" role="button">Ver Curriculum vitae</a>
+        <a id="#cv" class="btn btn-light space-evenly  ml-2"  data-toggle= "tooltip"  data-placement="bottom" title="click para ver" href="cv.html" role="button">Ver Curriculum vitae</a>
       </div>
 
     </div>
@@ -369,16 +369,24 @@
 
   <!--footer-->
   <footer class="bg-magenta">
-    <div class="container-fluid"> 
+    <div class="container-fluid">
+
       <div class="row">
-        <div class="col-lg-6  text-left">
-          <h6 class="font-weight-bold text-white ml-5 p-3">Alejandra</h6>
+        <div class="col-lg-6 ">
+          <div class="d-flex justify-content-around">
+            <h6 class="font-weight-bold text-white ml-5 p-3">Alejandra</h6>
+          </div>
         </div>
-        <div class="col-lg-6  text-rigth">
-          <a href="https://github/alecristie.com/"><i class="fab fa-github fa-2x text-align text-white mr-2  p-3"></i></a>
-          <a href="https://linkedin.com/"><i class="fab fa-linkedin fa-2x text-align text-white mr-2 p-3"></i></a>
-          <a href="https://twiter/ale_cristie.com/"><i class="fab fa-twitter-square fa-2x text-align text-white mr-2 p-3"></i></a>
-          <a href="https://facebook/alejandra.cristi.12.com/"><i class="fab fa-facebook-square text-align fa-2x text-white mr-3 p-3"></i></a>
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-center">
+            <a href="https://github/alecristie.com/"><i
+                class="fab fa-github fa-2x text-align text-white mr-1  p-3"></i></a>
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin fa-2x text-align text-white mr-1 p-3"></i></a>
+            <a href="https://twiter/ale_cristie.com/"><i
+                class="fab fa-twitter-square fa-2x text-align text-white mr-1 p-3"></i></a>
+            <a href="https://facebook/alejandra.cristi.12.com/"><i
+                class="fab fa-facebook-square text-align fa-2x text-white mr-5 p-3"></i></a>
+          </div>
         </div>
       </div>
     </div>
